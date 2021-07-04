@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style> 
+        html, body {
+            margin:0px;
+            padding:0px;
+            height:100%;
+        }
+
+        .box {
+            background:gray;
+            width: 100%;
+            height:100%;
+            margin: 0%;
+        }
+
+        input[type=text], select {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .forimage{
+            background-color: rgb(255, 255, 255);
+            width: 10%;
+            height: 150px;
+            line-height: 150px;
+            border-radius: 5%;
+            margin-left: 10%;
+            margin-top: 1%;
+            text-align: center;
+        }
+
+        .leftbox{
+            text-align: center;
+            margin: 0%;
+        }
+
+        tr.border-bottom td {
+            border-bottom: 3pt solid #f4f4f4;
+        }
+
+        tr.border-left td {
+            border-left: 3pt solid #366dca;
+        }
+        </style>
+
+    </head>
+    <body>
+        <div class="box">
+            <div style="width: 8%; height: 100%; float: left; background: #fafafa; margin: 0%;"> 
+                <table style="width: 100%; height: 50%;">
+                    <tr class="border-bottom">
+                        <td>
+                            <div class="leftbox">
+                                <img src="logo.png" alt="logo">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="leftbox">
+                                <img src="students.png" alt="student_logo">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="background-color: #d2e2ef;" class="border-left">
+                        <td>
+                            <div class="leftbox">
+                                <img src="lesson.png" alt="student_logo">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="leftbox">
+                                <img src="settings.png" alt="student_logo">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="margin-left: 8%; height: 100%; background: #f4f5f7;"> 
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="height: 100px; background-color: #ffffff;"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="padding-left: 3%; padding-top: 2%;">
+                                <i style="font-size:18px; color: #8b979e;" class="fa">&#xf0d9;</i><label for="text" style="color: #8b979e;"> <strong>Videos</strong></label>
+                            </div>
+
+                            <div style="text-align: center; padding-top: 5%;">
+                                <input type="text" name="url" id="url" placeholder="Insert URL here">
+                            </div>
+
+                            <div style="text-align: center; padding-top: 2%;">
+                                <label for="text"><strong>or</strong></label>
+                            </div>
+
+                            <div class="forimage">
+                                <span style="display: inline-block; vertical-align: middle; line-height: normal;"><strong>upload</strong></span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
